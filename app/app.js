@@ -48,7 +48,7 @@ app.post('/customhandler', function (req, res) {
             respond(res, requestData, action + "-sync-success");
             break;
         default:
-            respond(res, requestData, "UNKKNOWN");
+            respond(res, requestData, "UNKNOWN");
             break;
     }
 });
